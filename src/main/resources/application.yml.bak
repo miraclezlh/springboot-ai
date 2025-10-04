@@ -1,0 +1,13 @@
+spring:
+  ai:
+    openai:
+        api-key: sk-cf4e058ea32b40e090fe4574401008fa
+        base-url: https://api.deepseek.com
+        embedding:
+          enabled: false
+        chat:
+          options:
+            temperature: 0.8
+            model: deepseek-chat
+    retry:
+        max-attempts: 20
