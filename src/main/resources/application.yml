@@ -1,7 +1,6 @@
 spring:
   ai:
     ollama:
-#        api-key: sk-cf4e058ea32b40e090fe4574401008fa
         base-url: http://127.0.0.1:11434
         init:
           pull-model-strategy: always #自动获取最新的模型
